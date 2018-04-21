@@ -1,0 +1,45 @@
+﻿<Window x:Class="ChappaNaMesaSistema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChappaNaMesaSistema"
+        mc:Ignorable="d"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        
+        Title="MainWindow" Height="359" Width="567" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="242*"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btn_Vendas" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Height="50" Background="#FF59E0A9" Foreground="White" FontSize="18" Padding="1" Grid.Row="1" Click="btn_Vendas_Click">
+            <StackPanel Width="140" Orientation="Horizontal" Margin="14,0,0,0">
+                <Image Source="icon10.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
+                <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="VENDAS" Margin="0"></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btn_GerenProd" HorizontalAlignment="Left" Margin="182,5,0,0" VerticalAlignment="Top" Width="160" Height="50" Background="#FFFFD250" Foreground="White" FontSize="18" Grid.Row="1" Click="btn_GerenProd_Click">
+            <StackPanel Width="140" Orientation="Horizontal" Margin="-7,0,0,0">
+                <Image Source="icon08.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
+                <TextBlock VerticalAlignment="Center" TextAlignment="Center" FontSize="18" Text="PRODUTOS"></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button x:Name="btnHistorico" HorizontalAlignment="Left" Margin="353,5,0,0" VerticalAlignment="Top" Width="160" Height="50" FontSize="18" Background="#FF22384D" Foreground="White" Grid.Row="1" Click="btnHistorico_Click">
+            <StackPanel Width="140" Orientation="Horizontal" Margin="-6,0,0,0">
+                <Image Source="icon09.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
+                <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="HISTÓRICO"></TextBlock>
+            </StackPanel>
+        </Button>
+        <Image VerticalAlignment="Center" HorizontalAlignment="Center" Source="logo-cut.png" Width="300"/>
+
+    </Grid>
+</Window>
