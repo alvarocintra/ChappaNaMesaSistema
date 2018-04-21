@@ -110,27 +110,29 @@ namespace ChappaNaMesaSistema
             car.vtTotal = cc.somartdnocarrinho(car.List);
 
             List<Sacola> w = sc.ListarSacolas();
-            listCarrinho.ItemsSource = w;
+            listCarrinho.ItemsSource = w;           
 
-            MessageBoxResult result = MessageBox.Show("Deseja finalizar a venda?", "Venda", MessageBoxButton.YesNo);
-
-            //if (listCarrinho.ItemsSource == null)
-            //{
-            //    MessageBox.Show("Não há nenhum produto no carrinho de compras.");
-            //}
-
-            if (result == MessageBoxResult.Yes)
+            if (w.Count != 0)
             {
-                cc.SalvarCarrinho(car);
-                sc.LimparSacola();
-                listCarrinho.ItemsSource = sc.ListarSacolas();
-                MessageBox.Show("Venda concluída com sucesso, valor total da compra: R$ " + calc_vtCompra(w));
-                lblProdAdd.Content = "";
-                lblSubTotal.Content = "0,00";
-                lb_valorTotal.Content = "0,00";
-                lblQtd.Content = "0";
+                MessageBoxResult result = MessageBox.Show("Deseja finalizar a venda?", "Venda", MessageBoxButton.YesNo);
+                if (result == MessageBoxResult.Yes)
+                {
+                    cc.SalvarCarrinho(car);
+                    sc.LimparSacola();
+                    listCarrinho.ItemsSource = sc.ListarSacolas();
+                    MessageBox.Show("Venda concluída com sucesso, valor total da compra: R$ " + calc_vtCompra(w));
+                    lblProdAdd.Content = "";
+                    lblSubTotal.Content = "0,00";
+                    lb_valorTotal.Content = "0,00";
+                    lblQtd.Content = "0";
 
+                }
             }
+            else
+            {
+                MessageBox.Show("Não há nenhum produto no carrinho de compras.");
+            }
+
         }
 
         private void tb_Pesquisa_GotFocus(object sender, RoutedEventArgs e)

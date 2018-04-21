@@ -1,0 +1,15 @@
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Controllers.dll.config
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Controllers.dll
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Controllers.pdb
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\EntityFramework.dll
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\EntityFramework.SqlServer.dll
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Models.dll
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Models.pdb
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\Models.dll.config
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\EntityFramework.xml
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\bin\x86\Release\EntityFramework.SqlServer.xml
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\obj\x86\Release\Controllers.csprojResolveAssemblyReference.cache
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\obj\x86\Release\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\obj\x86\Release\Controllers.csproj.CopyComplete
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\obj\x86\Release\Controllers.dll
+C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Controllers\obj\x86\Release\Controllers.pdb

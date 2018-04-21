@@ -15,25 +15,25 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="MainWindow" Height="359" Width="567" ResizeMode="NoResize">
+        Title="MainWindow" Height="370" Width="580" ResizeMode="NoResize">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="242*"/>
             <RowDefinition Height="71*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="btn_Vendas" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Height="50" Background="#FF59E0A9" Foreground="White" FontSize="18" Padding="1" Grid.Row="1" Click="btn_Vendas_Click">
+        <Button x:Name="btn_Vendas" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Height="50" Background="#FF59E0A9" Foreground="White" FontSize="18" Padding="1" Grid.Row="1" Click="btn_Vendas_Click" BorderBrush="{x:Null}">
             <StackPanel Width="140" Orientation="Horizontal" Margin="14,0,0,0">
                 <Image Source="icon10.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
                 <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="VENDAS" Margin="0"></TextBlock>
             </StackPanel>
         </Button>
-        <Button x:Name="btn_GerenProd" HorizontalAlignment="Left" Margin="182,5,0,0" VerticalAlignment="Top" Width="160" Height="50" Background="#FFFFD250" Foreground="White" FontSize="18" Grid.Row="1" Click="btn_GerenProd_Click">
+        <Button x:Name="btn_GerenProd" HorizontalAlignment="Left" Margin="182,5,0,0" VerticalAlignment="Top" Width="160" Height="50" Background="#FFFFD250" Foreground="White" FontSize="18" Grid.Row="1" Click="btn_GerenProd_Click" BorderBrush="{x:Null}">
             <StackPanel Width="140" Orientation="Horizontal" Margin="-7,0,0,0">
                 <Image Source="icon08.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
                 <TextBlock VerticalAlignment="Center" TextAlignment="Center" FontSize="18" Text="PRODUTOS"></TextBlock>
             </StackPanel>
         </Button>
-        <Button x:Name="btnHistorico" HorizontalAlignment="Left" Margin="353,5,0,0" VerticalAlignment="Top" Width="160" Height="50" FontSize="18" Background="#FF22384D" Foreground="White" Grid.Row="1" Click="btnHistorico_Click">
+        <Button x:Name="btnHistorico" HorizontalAlignment="Left" Margin="353,5,0,0" VerticalAlignment="Top" Width="160" Height="50" FontSize="18" Background="#FF22384D" Foreground="White" Grid.Row="1" Click="btnHistorico_Click" BorderBrush="{x:Null}">
             <StackPanel Width="140" Orientation="Horizontal" Margin="-6,0,0,0">
                 <Image Source="icon09.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
                 <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="HISTÓRICO"></TextBlock>

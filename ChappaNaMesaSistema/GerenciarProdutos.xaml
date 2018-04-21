@@ -15,7 +15,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="GerenciarProdutos" Height="526.523" Width="713.997" ResizeMode="NoResize">
+        Title="GerenciarProdutos" Height="527.523" Width="730" ResizeMode="NoResize">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="145*"/>
@@ -30,9 +30,9 @@
             <ComboBoxItem x:Name="cb_Adicionais" Content="Adicionais" HorizontalAlignment="Left" Width="168"/>
             <ComboBoxItem x:Name="cb_Bebidas" Content="Bebidas" HorizontalAlignment="Left" Width="168"/>
         </ComboBox>
-        <Button x:Name="btn_Salvar" HorizontalAlignment="Left" Margin="569,109,0,0" VerticalAlignment="Top" Width="106" Click="btn_Salvar_Click" RenderTransformOrigin="0.511,1.367" Height="29" BorderBrush="{x:Null}" Background="#FF4DB6AC" Foreground="White" FontFamily="Segoe UI Symbol">
-            <StackPanel Orientation="Horizontal" Width="84" Margin="-10,0,0,0">
-                <Image Source="icon15small.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="20" Width="20"/>
+        <Button x:Name="btn_Salvar" Margin="568,108,0,0" VerticalAlignment="Top" Click="btn_Salvar_Click" Width="120" Height="30" Background="#FF4DB6AC" Foreground="White" BorderBrush="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="icon15small.png" HorizontalAlignment="Right" Height="20" Width="20"/>
                 <TextBlock VerticalAlignment="Center" TextAlignment="Center" FontSize="12" Text="ADICIONAR"></TextBlock>
             </StackPanel>
         </Button>
@@ -60,7 +60,6 @@
                 </ListView.View>
             </ListView>
         </Grid>
-        <Button x:Name="Teste1" Content="Teste" HorizontalAlignment="Left" Margin="824,53,-211,0" VerticalAlignment="Top" Width="75" Click="Teste1_Click" Grid.Row="1" Height="20"/>
         <Label x:Name="lb1" Content="Label" HorizontalAlignment="Left" Margin="791,5,-103,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="0"/>
         <Label x:Name="lb2" Content="Label" HorizontalAlignment="Left" Margin="791,39,-103,0" VerticalAlignment="Top" Height="26" Width="0"/>
         <Image Source="logo-cut.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="100" Margin="10,4,0,41" Width="141"/>

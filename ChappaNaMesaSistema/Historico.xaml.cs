@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -33,15 +34,28 @@ namespace ChappaNaMesaSistema
         {
             CarrinhoController carrinho = new CarrinhoController();
             Carrinho c = new Carrinho();
+            int check = 0;
+            Regex regex = new Regex(@"^-*[0-9/0-9/0-9]+$");
+
             if (txtDataConsultar.Text == "")
             {
                 listVendas.ItemsSource = carrinho.ListarCarrinhos();
             }
             else
-            {
-                DateTime data = DateTime.Parse(txtDataConsultar.Text);
-                c.Data = data;
-                listVendas.ItemsSource = carrinho.pesquisaData(c.Data);
+            { 
+               
+                if (regex.IsMatch(txtDataConsultar.Text) == true)
+                {
+                    DateTime data = DateTime.Parse(txtDataConsultar.Text);
+                    c.Data = data;
+                    listVendas.ItemsSource = carrinho.pesquisaData(c.Data);
+                    check++;
+                }
+                else
+                {
+                    MessageBox.Show("O campo valor deve estar no formato de data (Dia/Mês/Ano).");
+                }
+
             }
         }
 
