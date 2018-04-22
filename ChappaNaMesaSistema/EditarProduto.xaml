@@ -15,7 +15,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="EditarProduto" Height="350" Width="350" ResizeMode="NoResize">
+        Title="Edição de Produto" Height="350" Width="350" ResizeMode="NoResize">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="16*"/>

@@ -19,10 +19,6 @@ namespace ChappaNaMesaSistema
             InitializeComponent();
             listCadProdutos.Items.Clear();
             listCadProdutos.ItemsSource = pc.ListarProdutos();
-            /*this.listCadProdutos.SetBinding(ListView.SelectedItemProperty, new Binding("idProduto") { Mode = BindingMode.TwoWay, Source = p.ProdutoID });
-            this.listCadProdutos.SetBinding(ListView.SelectedItemProperty, new Binding("NomeProduto") { Mode = BindingMode.TwoWay, Source = p.NomeProduto });
-            this.listCadProdutos.SetBinding(ListView.SelectedItemProperty, new Binding("Categoria") { Mode = BindingMode.TwoWay, Source = p.Categoria });
-            this.listCadProdutos.SetBinding(ListView.SelectedItemProperty, new Binding("ValorProduto") { Mode = BindingMode.TwoWay, Source = p.ValorProduto });*/
         }
 
         private void btn_Salvar_Click(object sender, RoutedEventArgs e)
@@ -55,21 +51,10 @@ namespace ChappaNaMesaSistema
                 pc.SalvarProduto(p);
             }
 
-            /*
-			if(regex.IsMatch(tb_Valor.Text) == true){
-				p.ValorProduto = decimal.Parse(tb_Valor.Text);
-			}else{
-				MessageBox.Show("O campo valor deve conter apenas números.");
-			}
-
-            p.Categoria = tb_Categoria.Text;
-            pc.SalvarProduto(p);
-			*/
             listCadProdutos.ItemsSource = pc.ListarProdutos();
         }
 
-        //REMOVER DEPOIS
-        //TESTES \/
+
         private void ListViewItem_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
         {
             contextEditRemove.Visibility = Visibility.Visible;
@@ -90,7 +75,6 @@ namespace ChappaNaMesaSistema
             Produto produto = new Produto();
             p = (Produto)listCadProdutos.SelectedItem;
 
-            //int idProduto = p.ProdutoID;
             var edit = new EditarProduto(p);
             edit.ShowDialog();
             listCadProdutos.ItemsSource = pc.ListarProdutos();

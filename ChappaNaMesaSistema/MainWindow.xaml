@@ -15,7 +15,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="MainWindow" Height="370" Width="580" ResizeMode="NoResize">
+        Title="Restaurante Chappa na Mesa" Height="370" Width="580" ResizeMode="NoResize">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="242*"/>

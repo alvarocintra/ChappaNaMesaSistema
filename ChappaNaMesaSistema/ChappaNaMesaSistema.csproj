@@ -54,7 +54,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>cbpal-ea56z-001.ico</ApplicationIcon>
+    <ApplicationIcon>icone_chappa_ACN_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -156,7 +156,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Controllers\Controllers.csproj">
@@ -206,6 +208,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="cbpal-ea56z-002.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icone_chappa_6vZ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icone_chappa_ACN_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

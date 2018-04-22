@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("cbpal-ea56z-002.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icone_chappa_acn_icon.ico")]
 
 

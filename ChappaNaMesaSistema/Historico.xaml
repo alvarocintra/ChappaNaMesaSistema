@@ -15,7 +15,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="Historico" ResizeMode="NoResize" Height="554.789" Width="410.203">
+        Title="Histórico de Vendas" ResizeMode="NoResize" Height="554.789" Width="410.203">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="119*"/>
@@ -35,7 +35,7 @@
             </ListView>
         </GroupBox>
         <TextBox x:Name="txtDataConsultar" HorizontalAlignment="Left" Margin="21,4,0,0" TextWrapping="Wrap" Text="Data da venda" Width="197" Grid.Row="2" GotFocus="txtDataConsultar_GotFocus" Height="27" VerticalAlignment="Top"/>
-        <Button x:Name="btn_Consultar" HorizontalAlignment="Left" Margin="231,1,0,0" VerticalAlignment="Top" Width="130" Click="btn_Consultar_Click" Height="30" Grid.Row="2" Background="#FF673AB7" Foreground="White" BorderBrush="{x:Null}" Padding="0">
+        <Button x:Name="btn_Consultar" HorizontalAlignment="Left" Margin="231,1,0,0" VerticalAlignment="Top" Width="130" Click="btn_Consultar_Click" Height="30" Grid.Row="2" Foreground="White" Padding="0">
             <StackPanel Orientation="Horizontal" Margin="2">
                 <Image Source="icon05small.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="15" Width="15"/>
                 <TextBlock VerticalAlignment="Center" TextAlignment="Center" FontSize="12" Text="CONSULTAR"></TextBlock>
