@@ -201,15 +201,6 @@
     <Resource Include="icon16.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="cb3zw-ut1nd-001.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="cbpal-ea56z-001.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="cbpal-ea56z-002.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="icone_chappa_6vZ_icon.ico" />
   </ItemGroup>
   <ItemGroup>

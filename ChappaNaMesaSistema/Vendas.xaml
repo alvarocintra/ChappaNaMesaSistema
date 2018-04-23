@@ -81,7 +81,7 @@
         <Label Content="Produto adicionado:" HorizontalAlignment="Left" Margin="472,310,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblProdAdd" Content="" HorizontalAlignment="Left" Margin="474,327,0,0" VerticalAlignment="Top" Foreground="#FF0D0964" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="477,350,0,0" TextWrapping="Wrap" Text="Quantidade:" VerticalAlignment="Top"/>
-        <Label x:Name="lblQtd" Content="" HorizontalAlignment="Left" Margin="474,358,0,0" VerticalAlignment="Top" FontSize="15" Foreground="#FF760000" FontWeight="Bold"/>
+        <Label x:Name="lblQtd" Content="" HorizontalAlignment="Left" Margin="474,361,0,0" VerticalAlignment="Top" FontSize="15" Foreground="#FF760000" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="477,385,0,0" TextWrapping="Wrap" Text="Valor Produto:" VerticalAlignment="Top"/>
         <Label  Content="R$" HorizontalAlignment="Left" Margin="473,397,0,0" VerticalAlignment="Top" FontSize="15" Foreground="#FF760000" FontWeight="Bold"/>
         <Label x:Name="lblSubTotal" Content="" HorizontalAlignment="Left" Margin="495,397,0,0" VerticalAlignment="Top" FontSize="15" Foreground="#FF760000" FontWeight="Bold"/>

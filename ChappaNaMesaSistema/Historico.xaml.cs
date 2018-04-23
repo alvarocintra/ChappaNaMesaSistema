@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Windows;
 using Controller;
@@ -12,23 +13,25 @@ namespace ChappaNaMesaSistema
     public partial class Historico : Window
     {
         CarrinhoController cc = new CarrinhoController();
+
         public Historico()
         {
             InitializeComponent();
             listVendas.ItemsSource = cc.ListarCarrinhos();
+            List<Carrinho> q = cc.ListarCarrinhos();
+            listVendas.ItemsSource = q;            
         }
 
 
         private void btn_Consultar_Click(object sender, RoutedEventArgs e)
-        {
-            CarrinhoController carrinho = new CarrinhoController();
+        {            
             Carrinho c = new Carrinho();
             int check = 0;
             Regex regex = new Regex(@"^-*[0-9/0-9/0-9]+$");
 
             if (txtDataConsultar.Text == "")
             {
-                listVendas.ItemsSource = carrinho.ListarCarrinhos();
+                listVendas.ItemsSource = cc.ListarCarrinhos();
             }
             else
             { 
@@ -37,14 +40,17 @@ namespace ChappaNaMesaSistema
                 {
                     DateTime data = DateTime.Parse(txtDataConsultar.Text);
                     c.Data = data;
-                    listVendas.ItemsSource = carrinho.pesquisaData(c.Data);
+                    listVendas.ItemsSource = cc.pesquisaData(c.Data);
+                    //List<Carrinho> q = cc.ListarCarrinhos();
+                    //listVendas.ItemsSource = q;
+
+                    //lblValorTotal.Content = calc_vtCompra(q);
                     check++;
                 }
                 else
                 {
                     MessageBox.Show("O campo deve estar no formato de data (Dia/Mês/Ano).");
                 }
-
             }
         }
 
@@ -52,7 +58,16 @@ namespace ChappaNaMesaSistema
         {
             txtDataConsultar.Text = "";
         }
+         
+        //public decimal calc_vtVendas(List<Carrinho> q)
+        //{
+        //    decimal x = 0;
 
-
+        //    foreach (var item in q)
+        //    {
+        //        x = x + item.vtTotal;
+        //    }
+        //    return x;
+        //}
     }
 }

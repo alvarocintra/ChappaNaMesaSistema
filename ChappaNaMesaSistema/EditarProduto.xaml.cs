@@ -20,24 +20,10 @@ namespace ChappaNaMesaSistema
             tb_Categoria.SelectedItem = pro2.Categoria;
 
             pro = pro2;
-            //txtValorProduto.Text = pro.ValorProduto;
-
-            //pro.ValorProduto = decimal.Parse(txtValorProduto.Text);
         }
-
-        /*public EditarProduto(Produto p)
-        : this()
-        {
-            this.txtNomeProduto.SetBinding(ListView.SelectedItemProperty, new Binding("NomeProduto") { Source = p.ProdutoID });
-            this.txtNomeProduto.SetBinding(ListView.SelectedItemProperty, new Binding("NomeProduto") { Source = p.NomeProduto });
-            this.tb_Categoria.SetBinding(ListView.SelectedItemProperty, new Binding("Categoria") { Source = p.Categoria });
-            this.txtValorProduto.SetBinding(ListView.SelectedItemProperty, new Binding("ValorProduto") { Source = p.ValorProduto });
-
-        }*/
 
         private void Editar_Click(object sender, RoutedEventArgs e)
         {
-
             ProdutoController pc = new ProdutoController();
             Produto p = new Produto();
 

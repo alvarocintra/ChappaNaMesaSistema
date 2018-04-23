@@ -2,9 +2,6 @@
 using System.Windows.Input;
 using Models;
 using Controller;
-using System.Windows.Data;
-using System.Windows.Controls;
-using System;
 using System.Text.RegularExpressions;
 
 namespace ChappaNaMesaSistema
@@ -38,6 +35,8 @@ namespace ChappaNaMesaSistema
                 {
                     p.ValorProduto = decimal.Parse(tb_Valor.Text);
                     p.Categoria = tb_Categoria.Text;
+                    tb_NomeProduto.Text = "";
+                    tb_Valor.Text = "";
                     check++;
                 }
                 else
@@ -96,7 +95,6 @@ namespace ChappaNaMesaSistema
                 pc.ExcluirProduto(idProduto);
                 listCadProdutos.ItemsSource = pc.ListarProdutos();
             }
-            else { }
         }
 
         private void menuItemRefresh_Click(object sender, RoutedEventArgs e)
@@ -121,6 +119,7 @@ namespace ChappaNaMesaSistema
                 tb_Valor.Text = "";
             }
         }
-        
+
+
     }
 }

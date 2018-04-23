@@ -22,9 +22,9 @@
             <RowDefinition Height="71*"/>
         </Grid.RowDefinitions>
         <Button x:Name="btn_Vendas" HorizontalAlignment="Left" Margin="8,5,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Height="50" Background="#FF59E0A9" Foreground="White" FontSize="18" Padding="1" Grid.Row="1" Click="btn_Vendas_Click" BorderBrush="{x:Null}">
-            <StackPanel Width="140" Orientation="Horizontal" Margin="14,0,0,0">
+            <StackPanel Width="140" Orientation="Horizontal" Margin="0">
                 <Image Source="icon10.png" Margin="0,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
-                <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="VENDAS" Margin="0"></TextBlock>
+                <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="VENDAS" Margin="2,0,0,0"></TextBlock>
             </StackPanel>
         </Button>
         <Button x:Name="btn_GerenProd" HorizontalAlignment="Left" Margin="182,5,0,0" VerticalAlignment="Top" Width="160" Height="50" Background="#FFFFD250" Foreground="White" FontSize="18" Grid.Row="1" Click="btn_GerenProd_Click" BorderBrush="{x:Null}">

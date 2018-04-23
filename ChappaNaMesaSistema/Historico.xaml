@@ -23,7 +23,7 @@
             <RowDefinition Height="36"/>
             <RowDefinition Height="318*"/>
         </Grid.RowDefinitions>
-        <GroupBox Header="Vendas" HorizontalAlignment="Left" Height="258" Margin="21,0,0,0" VerticalAlignment="Top" Width="340" Grid.Row="3">
+        <GroupBox Header="Vendas" HorizontalAlignment="Left" Height="307" Margin="21,0,0,0" VerticalAlignment="Top" Width="340" Grid.Row="3">
             <ListView x:Name="listVendas">
                 <ListView.View>
                     <GridView>
@@ -43,10 +43,5 @@
         </Button>
         <Image Source="logo-cut.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="21,5,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Consulta de vendas" VerticalAlignment="Top" FontSize="20"/>
-        <Button Margin="312,263,0,0" Grid.Row="3" Width="46" Height="46" BorderBrush="{x:Null}" Background="#FF9AD3A7" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="15,0,0,0">
-            <StackPanel Orientation="Horizontal" Margin="0">
-                <Image Source="icon16.ico" Margin="-13,0,0,0" HorizontalAlignment="Right" Height="40" Width="40"/>
-            </StackPanel>
-        </Button>
-    </Grid>
+ </Grid>
 </Window>

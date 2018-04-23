@@ -22,7 +22,6 @@
             <RowDefinition Height="314*"/>
         </Grid.RowDefinitions>
         <TextBox x:Name="tb_NomeProduto" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="Nome Produto" VerticalAlignment="Top" Width="262" Margin="10,112,0,0" GotFocus="tb_NomeProduto_GotFocus"/>
-        <TextBox x:Name="tb_Valor" HorizontalAlignment="Left" Height="29" Margin="498,109,0,0" TextWrapping="Wrap" Text="Valor" VerticalAlignment="Top" Width="66" GotFocus="tb_Valor_GotFocus"/>
         <ComboBox x:Name="tb_Categoria" HorizontalAlignment="Left" Margin="277,109,0,0" VerticalAlignment="Top" Width="216" Height="29">
             <ComboBoxItem x:Name="cb_BuffetLivre" Content="Buffet Livre" HorizontalAlignment="Left" Width="168" IsSelected="True"/>
             <ComboBoxItem x:Name="cb_Chapa" Content="Chapa" HorizontalAlignment="Left" Width="168"/>
@@ -30,6 +29,7 @@
             <ComboBoxItem x:Name="cb_Adicionais" Content="Adicionais" HorizontalAlignment="Left" Width="168"/>
             <ComboBoxItem x:Name="cb_Bebidas" Content="Bebidas" HorizontalAlignment="Left" Width="168"/>
         </ComboBox>
+        <TextBox x:Name="tb_Valor" HorizontalAlignment="Left" Height="29" Margin="498,109,0,0" TextWrapping="Wrap" Text="Valor" VerticalAlignment="Top" Width="66" GotFocus="tb_Valor_GotFocus"/>
         <Button x:Name="btn_Salvar" Margin="568,108,0,0" VerticalAlignment="Top" Click="btn_Salvar_Click" Width="120" Height="30" Background="#FF4DB6AC" Foreground="White" BorderBrush="{x:Null}">
             <StackPanel Orientation="Horizontal">
                 <Image Source="icon15small.png" HorizontalAlignment="Right" Height="20" Width="20"/>
@@ -62,6 +62,6 @@
         </Grid>
         <Label x:Name="lb1" Content="Label" HorizontalAlignment="Left" Margin="791,5,-103,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="0"/>
         <Label x:Name="lb2" Content="Label" HorizontalAlignment="Left" Margin="791,39,-103,0" VerticalAlignment="Top" Height="26" Width="0"/>
-        <Image Source="logo-cut.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="112" Margin="0,0,0,39" Width="158"/>
+        <Image Source="logo-cut.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="107" Margin="3,3,0,41" Width="151"/>
     </Grid>
 </Window>

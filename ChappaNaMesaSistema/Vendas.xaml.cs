@@ -25,7 +25,6 @@ namespace ChappaNaMesaSistema
             ResultadoPesquisa.ItemsSource = pc.ListarProdutos();
             listCarrinho.Items.Clear();
             listCarrinho.ItemsSource = sc.ListarSacolas();
-
         }
 
         private void btn_AddProd_Click(object sender, RoutedEventArgs e)
@@ -33,7 +32,7 @@ namespace ChappaNaMesaSistema
             Sacola q = new Sacola();
             q.Prod = ResultadoPesquisa.SelectedItem as Produto;
 
-            if (ResultadoPesquisa.SelectedItem != null)
+            if (ResultadoPesquisa.SelectedItem != null && int.Parse(tb_Quantidade.Text) != 0)
             {
                 q.Qtd = int.Parse(tb_Quantidade.Text);
                 q.NomeProduto = q.Prod.NomeProduto;
@@ -52,7 +51,6 @@ namespace ChappaNaMesaSistema
             {
                 MessageBox.Show("Nenhum produto selecionado");
             }
-
         }
 
         public decimal calc_vtProduto(Produto p, int qtd)
@@ -125,14 +123,12 @@ namespace ChappaNaMesaSistema
                     lblSubTotal.Content = "0,00";
                     lb_valorTotal.Content = "0,00";
                     lblQtd.Content = "0";
-
                 }
             }
             else
             {
                 MessageBox.Show("Não há nenhum produto no carrinho de compras.");
             }
-
         }
 
         private void tb_Pesquisa_GotFocus(object sender, RoutedEventArgs e)
@@ -151,12 +147,8 @@ namespace ChappaNaMesaSistema
             {
                 Produto p = new Produto();
                 p.NomeProduto = tb_Pesquisa.Text;
-                //List<Produto> produto = new List<Produto>();
-                //produto.Add();
                 ResultadoPesquisa.ItemsSource = pc.PesquisarPorNome(p.NomeProduto);
             }
-
-
         }
 
         private void tb_Quantidade_PreviewTextInput(object sender, TextCompositionEventArgs e)
