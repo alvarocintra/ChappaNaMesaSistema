@@ -9,4 +9,4 @@
 ## Tela de Histórico
 ![Tela de Historico](https://github.com/alvarocintra/ChappaNaMesaSistema/blob/master/IMG/Historico.png)
 ## Tela de Edição de Produtos
-"[Tela de Edição](https://github.com/alvarocintra/ChappaNaMesaSistema/blob/master/IMG/Edi%C3%A7%C3%A3o%20produto.png)
+![Tela de Edição](https://github.com/alvarocintra/ChappaNaMesaSistema/blob/master/IMG/Edi%C3%A7%C3%A3o%20produto.png)
