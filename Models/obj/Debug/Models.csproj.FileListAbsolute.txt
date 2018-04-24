@@ -9,3 +9,13 @@ C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\Debug\Models.csproj
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\Debug\Models.dll
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\Debug\Models.pdb
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\Models.dll.config
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\Models.dll
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\Models.pdb
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\EntityFramework.dll
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\EntityFramework.xml
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\obj\Debug\Models.dll
+C:\Users\1715636\Desktop\Restaurante\ChappaNaMesaSistema\Models\obj\Debug\Models.pdb

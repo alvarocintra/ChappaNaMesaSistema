@@ -36,7 +36,7 @@ namespace ChappaNaMesaSistema
             else
             { 
                
-                if (regex.IsMatch(txtDataConsultar.Text) == true)
+                if (regex.IsMatch(txtDataConsultar.Text) == true && txtDataConsultar.Text.Contains("/"))
                 {
                     DateTime data = DateTime.Parse(txtDataConsultar.Text);
                     c.Data = data;
