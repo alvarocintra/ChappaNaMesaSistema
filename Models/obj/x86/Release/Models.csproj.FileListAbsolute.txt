@@ -9,4 +9,3 @@ C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\x86\Release\Models.
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\x86\Release\Models.csproj.CopyComplete
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\x86\Release\Models.dll
 C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\x86\Release\Models.pdb
-C:\Users\Álvaro\source\repos\ChappaNaMesaSistema\Models\obj\x86\Release\Models.csprojResolveAssemblyReference.cache

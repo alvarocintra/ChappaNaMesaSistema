@@ -75,6 +75,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C5D55EA382AC47A1851A440B0F54DDDE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_ED971AFFC23D835875ED59B9F02F0047"
         "OwnerKey" = "8:_0A4B4167BEAD2E1CEC691C2218F88375"
         "MsmSig" = "8:_UNDEFINED"
@@ -83,12 +89,6 @@
         {
         "MsmKey" = "8:_ED971AFFC23D835875ED59B9F02F0047"
         "OwnerKey" = "8:_42E9B4FD4B1848E78B26C90A3D717F21"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7675E7173FC54D15433160850D6172CA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -133,6 +133,12 @@
         "OwnerKey" = "8:_823091066DCCDA7D4E445A978F353E88"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7675E7173FC54D15433160850D6172CA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -151,6 +157,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -167,6 +181,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -382,6 +412,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5D55EA382AC47A1851A440B0F54DDDE"
+            {
+            "SourcePath" = "8:..\\ChappaNaMesaSistema\\icone_chappa_ACN_icon.ico"
+            "TargetName" = "8:icone_chappa_ACN_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_AFEA225A6E41478DBC95DDF392C1E8D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ED971AFFC23D835875ED59B9F02F0047"
             {
             "AssemblyRegister" = "3:1"
@@ -481,7 +531,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Sistema Chappa na Mesa"
         "ProductCode" = "8:{EE7E2D02-906B-48B4-92B5-C69AAD17F5C3}"
-        "PackageCode" = "8:{63CBF192-BA29-4739-B1F8-33AFB6356ED5}"
+        "PackageCode" = "8:{22830727-D139-46E1-BA4B-AF998956D697}"
         "UpgradeCode" = "8:{91F5869A-5789-4588-88CB-226B1068A00E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -612,7 +662,7 @@
             "Target" = "8:_42E9B4FD4B1848E78B26C90A3D717F21"
             "Folder" = "8:_B155D92713A241E6816D621B69ECA912"
             "WorkingFolder" = "8:_AFEA225A6E41478DBC95DDF392C1E8D7"
-            "Icon" = "8:"
+            "Icon" = "8:_C5D55EA382AC47A1851A440B0F54DDDE"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4A1620298E154BBCA02439C325E0277B"
@@ -626,7 +676,7 @@
             "Target" = "8:_42E9B4FD4B1848E78B26C90A3D717F21"
             "Folder" = "8:_580047E1926144CEB85596844EACC65A"
             "WorkingFolder" = "8:_AFEA225A6E41478DBC95DDF392C1E8D7"
-            "Icon" = "8:"
+            "Icon" = "8:_C5D55EA382AC47A1851A440B0F54DDDE"
             "Feature" = "8:"
             }
         }

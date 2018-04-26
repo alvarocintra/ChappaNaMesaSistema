@@ -119,7 +119,5 @@ namespace ChappaNaMesaSistema
                 tb_Valor.Text = "";
             }
         }
-
-
     }
 }
